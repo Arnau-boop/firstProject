@@ -5,18 +5,43 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Animestesia</title>
         <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+        <style>
+            body {margin:0;}
+            
+            .icon-bar {
+              width: 100%;
+              background-color: #555;
+              overflow: auto;
+            }
+            
+            .icon-bar a {
+              float: left;
+              width: 20%;
+              text-align: center;
+              padding: 12px 0;
+              transition: all 0.3s ease;
+              color: white;
+              font-size: 36px;
+            }
+            
+            .icon-bar a:hover {
+              background-color: #000;
+            }
+            
+            .active {
+              background-color: #04AA6D;
+            }
     </head>
     <body>
       <header>
             <h1>ANIMESTESIA</h1>
       </header>
-          <div>
-            <nav>
-             <a href="../firstProject/pages/characters/characters.html"></a> |
-             <a href="../firstProject/pages/Genre/genre.html"></a> |
-             <a href="../firstProject/pages/aboutMe/Formulari.html"></a>
-            </nav>
-          </div>
+      <div class="icon-bar">
+        <a class="active" href="#"><i class="home"></i></a> 
+        <a href="#"><i class="characters"></i></a> 
+        <a href="#"><i class="genre"></i></a> 
+        <a href="#"><i class="formulari"></i></a>
+      </div>
         <main>
                 <img src="inicio.jpg" alt="MAIN"    width="1256" height="620">
             <div>
