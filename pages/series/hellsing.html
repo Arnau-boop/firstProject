@@ -7,33 +7,36 @@
     <link rel="stylesheet" href="../../css/reset.css">
 </head>
 <body>
-    <header>
+    <header class="header" id="title">
         <h1>HELLSING</h1>
-        <nav>
-            <a href="/index.html">MAIN</a> |
-            <a href="../firstProject/pages/characters/characters.html">CHARACTERS</a> |
-            <a href="/pages/genre/genre.html">GENRE</a> |
-            <a href="../firstProject/pages/aboutMe/form.html">FORM</a> |
-        </nav>
     </header>
-        <a href="/pages/characters/profile/alucard.html">
-            <div>
+    <div>
+        <button>
+            <a href="../genre/seinen.html">back</a>
+        </button>
+    </div>
+    <main class="main" id="billboard">
+        <div>
+            <a href="/pages/characters/profile/alucard.html">
                 <img src="/assets/images/hellsing.jpg" width="200" height="200">
-            </div>
-        </a> 
-                <p> 
-                    La historia se centra alrededor de la Orden de Caballeros Protestantes Reales,
-                    que son una organización fundada por Abraham Van Hellsing
-                    y dirigida por sus descendientes.
-                    Su misión es proteger a la reina y las fronteras del país de toda amenaza sobrenatural. 
-                </p>
-                <h3>Trailer</h3>
+            </a>
+        </div>
+        <article class="article" id="sinopsis">
+            <p> 
+                La historia se centra alrededor de la Orden de Caballeros Protestantes Reales,
+                que son una organización fundada por Abraham Van Hellsing
+                y dirigida por sus descendientes.
+                Su misión es proteger a la reina y las fronteras del país de toda amenaza sobrenatural. 
+            </p>
+        </article>
+        <section class="section" id="trailers">
+            <h3>Trailer</h3>
+            <div>
                 <video width="300" height="300" controls>
                     <source src="/assets/videos/Hellsing Ultimate Collection 1 (I-IV) Official Trailer - Available Now.mp4" type="video/mp4">
                      Your browser does not support the video tag.
                 </video>
-                <a href="/pages/genre/seinen.html">
-                    <button type="button" class="sci-fi">BACK   
-                </a>
-                    </button>
+            </div>
+        </section>
+    </main>           
 </body>
