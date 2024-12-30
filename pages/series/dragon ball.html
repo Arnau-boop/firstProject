@@ -7,20 +7,21 @@
     <link rel="stylesheet" href="../../css/reset.css">
 </head>
 <body>
-    <header>
-        <h1>DRAGON BALL</h1>
-        <div>
-            <button>
-                <a href="../genre/shonen.html">back</a>
-            </button>
-        </div>
+    <header class="header" id="">
+        <h1 class="title main_title">DRAGON BALL</h1>
+        <button class="return">
+            <a href="../genre/shonen.html">back</a>
+        </button>
     </header>
-        <a href="/pages/characters/profile/broly.html">
-            <div>
-                <img src="/assets/images/dragonball.jpg" width="200" height="200">
-            </div>
-        </a> 
-                <p> 
+    <main class="main" id="">
+        <div class="image_reference">
+            <a href="../characters/profile/broly.html">
+                <img src="../../assets/images/dragonball.jpg" width="200" height="200">
+            </a>
+        </div>
+        <section class="section info_synopsis">
+            <article class="article prime_words">
+                <p class="text"> 
                     Su trama describe las aventuras de Gokū,
                     un guerrero saiyajin,
                     experto en artes marciales que en su infancia inicia sus viajesy aventuras
@@ -28,9 +29,16 @@
                     enfrentando oponentes y protegiendo a la Tierra de otros seres
                     que quieren conquistarla y exterminar a la humanidad. 
                 </p>
-                <h3>Trailer</h3>
-                <video width="300" height="300" controls>
-                    <source src="/assets/videos/Dragon Ball Z - 1989 Japanese Opening - Cha-La Head Cha-La - Remastered 1440p 60fps.mp4" type="video/mp4">
-                     Your browser does not support the video tag.
-                </video>
+            </article>
+        </section>
+        <section class="section" id="">
+                <h3 class="title third_title">Trailer</h3>
+                <div class="video_trailer">
+                    <video class="preview" width="300" height="300" controls>
+                        <source src="/assets/videos/Dragon Ball Z - 1989 Japanese Opening - Cha-La Head Cha-La - Remastered 1440p 60fps.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+        </section>
+    </main>
 </body>

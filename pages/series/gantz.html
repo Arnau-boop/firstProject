@@ -7,35 +7,38 @@
     <link rel="stylesheet" href="../../css/reset.css">
 </head>
 <body>
-    <header>
-        <h1>Gantz</h1>
-        <nav>
-            <a href="/index.html">MAIN</a> |
-            <a href="../firstProject/pages/characters/characters.html">CHARACTERS</a> |
-            <a href="/pages/genre/genre.html">GENRE</a> |
-            <a href="../firstProject/pages/aboutMe/form.html">FORM</a> |
-        </nav>
+    <header class="header" id="">
+        <h1 class="title main_title">Gantz</h1>
+        <button class="return">
+            <a href="../genre/sci-fi.html">back</a>
+        </button>
     </header>
-        <a href="/pages/characters/profile/kurono.html">
-            <div>
-                <img src="/assets/images/gantz.jpg" width="200" height="200">
-            </div>
-        </a> 
-            <p>
-                Cuenta la historia de Kei Kurono y Masaru Kato,
-                quienes mueren en un accidente de tren y se convierten en parte de un "juego" semipóstumo
-                en el que ellos y otras personas recientemente fallecidas
-                se ven obligados a cazar y matar
-                extraterrestres armados con un puñado de objetos, 
-                equipos y armamento futuristas.
-            </p>
-                <h3>Trailer</h3>
-                <video width="300" height="300" controls>
-                    <source src="/assets/videos/Gantz Trailer 2004.mp4" type="video/mp4">
-                     Your browser does not support the video tag.
-                </video>
-                <a href="/pages/genre/sci-fi.html">
-                    <button type="button" class="sci-fi">BACK   
-                </a>
-                    </button>
+    <main class="main" id="">
+        <div class="image_reference">
+            <a href="../characters/profile/kurono.html">
+                <img src="../../assets/images/gantz.jpg" width="200" height="200">
+            </a>
+        </div>
+        <section class="section info_synopsis">
+            <article class="article prime_words">
+                <p class="text">
+                    Cuenta la historia de Kei Kurono y Masaru Kato,
+                    quienes mueren en un accidente de tren y se convierten en parte de un "juego" semipóstumo
+                    en el que ellos y otras personas recientemente fallecidas
+                    se ven obligados a cazar y matar
+                    extraterrestres armados con un puñado de objetos, 
+                    equipos y armamento futuristas.
+                </p>
+            </article>
+        </section>
+        <section class="section" id="">
+                <h3 class="title third_title">Trailer</h3>
+                <div class="video_trailer">
+                    <video class="preview" width="300" height="300" controls>
+                        <source src="/assets/videos/Gantz Trailer 2004.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+        </section>
+    </main>
  </body>
