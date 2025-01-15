@@ -15,25 +15,34 @@
   font-size: -webkit-xxx-large;
   color: #7045afad;
   border: 7px solid #bbb1ec;
-    border-bottom: 7px solid beige;
-    border-top: 7px solid #6f77d0;
+  border-bottom: 7px solid beige;
+  border-top: 7px solid #6f77d0;
 }
 
 .navigation_bar {
-    display: flex;
-    justify-content: space-between;
-    font-family: fantasy;
-    font-size: xx-large;
-    margin: 5% auto;
-    order: 7px solid violet;
-    border: solid 6px #bbb0f1;
-    border-top: 7px solid #8383d0;
-    border-bottom: 7px solid aliceblue;
+  display: flex;
+  justify-content: space-between;
+  font-family: fantasy;
+  font-size: xx-large;
+  margin: 5% auto;
+  order: 7px solid violet;
+  border: solid 6px #bbb0f1;
+  border-top: 7px solid #8383d0;
+  border-bottom: 7px solid aliceblue;
 }
 
 #container {
   border: 2px #c1bbe7 solid;
+  border-left-width: thick;
+  border-bottom: 11px solid aliceblue;
+  border-right-width: thick;
 }
+
+.imge_index {   
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+  }
 
 #photo {
   height: auto;
