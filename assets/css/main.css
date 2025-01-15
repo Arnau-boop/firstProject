@@ -5,6 +5,7 @@
   margin: auto;
   display: flex;
   justify-content: center;
+  height: 100dvh;
 }
 
 .title {
@@ -13,6 +14,9 @@
   justify-content: center;
   font-size: -webkit-xxx-large;
   color: #7045afad;
+  border: 7px solid #bbb1ec;
+    border-bottom: 7px solid beige;
+    border-top: 7px solid #6f77d0;
 }
 
 .navigation_bar {
@@ -21,8 +25,20 @@
     font-family: fantasy;
     font-size: xx-large;
     margin: 5% auto;
+    order: 7px solid violet;
+    border: solid 6px #bbb0f1;
+    border-top: 7px solid #8383d0;
+    border-bottom: 7px solid aliceblue;
 }
 
+#container {
+  border: 2px #c1bbe7 solid;
+}
 
+#photo {
+  height: auto;
+  max-width: 100%;
+  border: solid 5px black;
+}
 
 
