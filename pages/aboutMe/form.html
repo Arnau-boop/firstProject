@@ -4,25 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../../css/reset.css">
-   
+    <link rel="stylesheet" href="../../assets/css/main.css">
 </head>
-<body>
+<body id="formularie">
     <header class="header">
         <h1 class="question">Would you like to join us?</h1>
         <nav class="navigation_bar">
             <a href="../Genre/genre.html">GENRES</a> 
-            <a href="/pages/characters/characters.html">CHARACTERS</a>
+            <a href="../characters/characters.html">CHARACTERS</a>
             <a href="../../index.html">MAIN</a> 
         </nav>
     </header>
     <main class="main">
         <form class="form" action="enviarmail.php" method="post">
-            <input type="text" size="40" title="Escribe tu nombre real. Es el que aparecerá en tu..." name="nombre" autofocus required/>
-            <input type="password" size="7" title="Escribe la contraseña que desee..." name="password" required/>
-            <input type="date" value="2000-01-01" name="nacimiento" title="La fecha en la que naciste, ya que..."/>
-            <input type="email" placeholder="usuario@dominio.com" size="40" title="Escribe tu correo electrónico..." name="mail" required/>
-            <input type="submit" value="Enviar los datos"/>
+            <input  type="text" size="40" title="Escribe tu nombre real. Es el que aparecerá en tu..." name="nombre" autofocus required/>
+            <input  type="password" size="7" title="Escribe la contraseña que desee..." name="password" required/>
+            <input  type="date" value="2000-01-01" name="nacimiento" title="La fecha en la que naciste, ya que..."/>
+            <input  type="email" placeholder="usuario@dominio.com" size="40" title="Escribe tu correo electrónico..." name="mail" required/>
+            <input  type="submit" value="Enviar los datos"/>
         </form>
     </main>
 </body>
