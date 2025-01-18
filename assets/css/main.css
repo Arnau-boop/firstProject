@@ -31,7 +31,7 @@
 #container {
   border: 2px #c1bbe7 solid;
   border-left-width: thick;
-  border-bottom: 11px solid aliceblue;
+  border-bottom: 4px solid aliceblue;
   border-right-width: thick;
 }
 
@@ -83,7 +83,7 @@
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
@@ -172,4 +172,7 @@ button {
   flex-wrap: nowrap;
 }
 
-
+.characterset {
+  display: grid;
+  grid-template-columns: repeat(3,200px);
+}
