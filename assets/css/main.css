@@ -3,18 +3,16 @@
   font-family: auto;
   width: auto;
   margin: auto;
-  display: flex;
+  /* display: flex;
   flex-wrap: nowrap;
   align-content: center;
-  justify-content: center;
+  justify-content: center; */
   
 }
 
 .title {
   font-family: ui-monospace;
   padding: 2%;
-  display: flex;
-  justify-content: center;
   font-size: -webkit-xxx-large;
   color: #7045afad;
   border: 7px solid #bbb1ec;
@@ -23,8 +21,6 @@
 }
 
 .navigation_bar {
-  display: flex;
-  justify-content: space-between;
   font-family: ui-monospace;
   font-size: 30px;
   margin: 0% auto;
@@ -32,10 +28,11 @@
   border: solid 6px #bbb0f1;
   border-top: 7px solid #8383d0;
   border-bottom: 7px solid aliceblue;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  /* flex-direction: row;
+  flex-wrap: nowrap; */
   
 }
+
 
 #special_nav {
 
@@ -50,9 +47,9 @@
 }
 
 .imge_index {   
-  display: flex;
+  /* display: flex;
   align-items: stretch;
-  align-content: stretch;
+  align-content: stretch; */
 }
 
 #photo {
@@ -64,11 +61,11 @@
 #formularie {
   max-width: 100%;
   height: auto;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   background-color: #d9d3d3;
   margin-top: auto;
   margin-bottom: auto;
@@ -76,8 +73,8 @@
 
 .question {
   font-family: fantasy;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   font-size: -webkit-xxx-large;
   color: #7045afad;
   border: 7px solid #bbb1ec;
@@ -112,6 +109,16 @@ button {
   border-top: 1px solid #6f77d0;
 }
 
+#header_special {
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  align-items: center;
+  justify-content: center;
+}
+
 .body_genre {
   background-color: #d9d3d3;
   font-family: auto;
@@ -125,8 +132,16 @@ button {
   object-fit: fill;
 }
 
-#genres {
+/* #genres {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+} */
+
+#special {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
