@@ -20,12 +20,12 @@
 }
 
 
-.body_genre {
+/* .body_genre {
   background-color: #d9d3d3;
   font-family: auto;
   width: auto;
   margin: auto;
-}
+} */
 
 
 #container {
@@ -54,7 +54,7 @@
 }
 
 
-.title {
+.title_main_title {
   font-family: ui-monospace;
   padding: 2%;
   font-size: revert-layer;
@@ -64,6 +64,18 @@
   border-top: 7px solid #6f77d0;
 }
 
+.title_secondary_title {
+  display: flex;
+  justify-content: center;
+  border: 4px solid #bbb1ec;
+  border-bottom: 4px solid beige;
+  border-top: 7px solid #6f77d0;
+  font-family: ui-monospace;
+  font-size: revert-layer;
+  color: #8a7fc2;
+  
+
+}
 
 .navigation_bar {
   font-family: ui-monospace;
@@ -79,7 +91,7 @@
 }
 
 
-#special {
+#main_variable {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
