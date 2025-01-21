@@ -188,3 +188,47 @@ button {
   display: grid;
   grid-template-columns: repeat(3,200px);
 }
+
+.article_characters {
+  justify-items: center;
+}
+
+.article_img_video {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.selfportrait {
+  width: 20%;
+  align-content: center;
+}
+
+.amv {
+ width: 100%;
+}
+
+
+.th {
+  border: solid 3px darkgray;
+}
+
+
+.td{
+  border: 3px solid darkgray;
+}
+
+
+.table_data {
+  display: table-footer-group;
+  border-collapse: collapse;
+  text-align: justify;
+}
+
+.table {
+  margin: 1%;
+  align-content: center;
+  justify-content: center;
+}
