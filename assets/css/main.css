@@ -81,15 +81,28 @@
   font-family: ui-monospace;
   font-size: 30px;
   margin: 0% auto;
-  order: 7px solid violet;
   border: solid 6px #bbb0f1;
   border-top: 7px solid #8383d0;
   border-bottom: 7px solid aliceblue;
   flex-direction: row;
-  flex-wrap: nowrap;
-  
+  border-radius: 13px;
 }
 
+.nav {
+  border: 8px solid #c7c0ec;
+  border-radius: 6px;
+}
+
+.locations {
+  border: 3px solid #b5aaef;
+  border-radius: 5px;
+  font-size: 90%;
+  padding: 4px;
+  display: table-cell;
+  border-left: #8a7fc2 solid;
+  border-right: #ccc4f2 solid;
+  border-top: #7d779b solid;
+}
 
 #main_variable {
   display: flex;
